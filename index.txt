@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Program</title>
+    <link rel="stylesheet" href="front.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header><h1>QUIZ COMPETITION</h1></header>
+<div class="c">
+    <form class="form" ></form>
+    <p id="quest"></p>
+    <div class="ch" id="ani">
+        <div class="c1">
+        <label id="b1">A)<input type="radio" name="choice" value="1982" class="choi" ><span id="bt1"></span></label>
+        <label>B)<input type="radio" name="choice" value="1965" class="choi"><span id="bt2"></span></label> <br>
+    </div>
+    <div class="c2">
+        <label class="txt">C)<input type="radio" name="choice" value="1995" class="choi"><span id="bt3"></span> </label>
+        <label class="txt">D)<input type="radio" name="choice" value="1985" class="choi"><span id="bt4"></span></label><br>
+    </div>
+    </div>
+    <div class="btn">
+    <input type="button" id="pre-btn" onclick="prebtn1()" value="PREVIOUS">
+    <input  type="button" id="next-btn" onclick="nxtbtn1()" value="NEXT">
+</div>
+<div class="btn2">
+<input type="button" id="sub" onclick="sub1()" value="Submit">
+</div>
+    <div class="progress pb">
+        <div class="progress-bar  progress-bar-striped  progress-bar-animated" id="pog" role="progressbar" aria-valuenow="70"
+        aria-valuemin="0" aria-valuemax="100"  >
+          0%
+        </div>
+      </div>
+    </div>
+    <script src="javascri.js"></script>
+</body>
+</html>
